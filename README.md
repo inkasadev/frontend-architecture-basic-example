@@ -1,6 +1,6 @@
 # Frontend Architecture Basic Example <!-- omit in toc -->
 
-This project was created to be an example of what I consider a good frontend architecture for basic projects.
+This project was created to be an example of what I consider a good frontend architecture for basic projects..
 
 <p align="center" >
     <img src="media/cover.png">
