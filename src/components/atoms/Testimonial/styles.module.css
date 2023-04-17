@@ -1,0 +1,16 @@
+.testimonial {
+	flex-shrink: 0;
+	background-color: var(--clr-white);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	width: 22rem;
+	height: 20rem;
+	padding: 1.6rem;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}

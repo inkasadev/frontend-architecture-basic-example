@@ -1,0 +1,12 @@
+.rating {
+	display: flex;
+	gap: 2px;
+}
+
+.star {
+	color: var(--clr-primary-2);
+}
+
+.starEmpty {
+	opacity: 0.1;
+}

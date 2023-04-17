@@ -1,0 +1,49 @@
+.card {
+	background-color: var(--clr-highlight-1);
+	width: 26.5rem;
+	border-top-left-radius: var(--border-radius);
+	border-top-right-radius: var(--border-radius);
+}
+
+.image {
+	border-top-left-radius: var(--border-radius);
+	border-top-right-radius: var(--border-radius);
+}
+
+.cardContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.6rem;
+	height: 24rem;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.title {
+	font: var(--ts-mobile-card-title);
+}
+
+.price {
+	font: var(--ts-mobile-card-price);
+	color: var(--clr-secondary-1);
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.link {
+	font: var(--ts-mobile-menu);
+	color: var(--clr-black);
+	text-transform: capitalize;
+	letter-spacing: var(--letter-spacing);
+	text-decoration: none;
+}

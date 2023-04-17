@@ -1,0 +1,23 @@
+.container {
+	margin: 10rem 0;
+}
+
+.confirmedBooking {
+	display: flex;
+	flex-direction: column;
+	margin: 1.6rem;
+	align-items: center;
+	gap: 20px;
+	/*
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+	margin: 6rem 0;
+    */
+}
+
+.confirmedMessage {
+	font: var(--ts-mobile-title-2);
+}

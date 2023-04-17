@@ -1,0 +1,15 @@
+.bookingTable {
+	display: grid;
+	gap: 20px;
+	width: 100%;
+}
+
+.bookingTitle {
+	font: var(--ts-mobile-title-2);
+}
+
+@media screen and (min-width: 930px) {
+	.bookingTable {
+		width: 930px;
+	}
+}

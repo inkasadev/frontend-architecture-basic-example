@@ -1,0 +1,24 @@
+{
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"extends": ["standard", "eslint-config-prettier"],
+	"plugins": ["react"],
+	"rules": {
+		"valid-typeof": "error",
+		"no-unsafe-negation": "error",
+		"no-unused-vars": "warn",
+		"no-unexpected-multiline": "error",
+		"no-undef": "error",
+		"react/jsx-uses-react": "error",
+		"react/jsx-uses-vars": "error"
+	},
+	"env": {
+		"browser": true,
+		"jest": true
+	}
+}

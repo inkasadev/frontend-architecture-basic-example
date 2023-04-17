@@ -1,0 +1,11 @@
+.title {
+	font: var(--ts-mobile-title-1);
+	color: var(--clr-primary-2);
+	margin: 0;
+}
+
+.subtitle {
+	display: block;
+	font: var(--ts-mobile-subtitle);
+	color: var(--clr-black);
+}

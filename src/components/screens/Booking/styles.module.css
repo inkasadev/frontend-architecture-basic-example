@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	align-items: center;
+	padding: 1.6rem;
+	margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 930px) {
+	.container {
+		justify-content: center;
+	}
+}

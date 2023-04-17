@@ -1,0 +1,33 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.label {
+	display: block;
+	font: var(--ts-mobile-paragraph-highlight);
+}
+
+.input {
+	font: var(--ts-mobile-paragraph);
+	padding: 1.2rem;
+	width: 100%;
+	/* height: 4rem; */
+}
+
+.submitBtn {
+	font: var(--ts-mobile-emphasis);
+	letter-spacing: var(--letter-spacing);
+	height: 6.5rem;
+	background-color: var(--clr-primary-2);
+	border-radius: var(--border-radius);
+	color: var(--clr-black);
+	transition: var(--transition);
+	border: 0;
+	cursor: pointer;
+}
+
+.submitBtn:hover {
+	letter-spacing: calc(var(--letter-spacing) + 0.1rem);
+}

@@ -1,0 +1,22 @@
+.ctaButton {
+	display: table-cell;
+	font: var(--ts-mobile-emphasis);
+	letter-spacing: var(--letter-spacing);
+	width: 27rem;
+	height: 6.5rem;
+	background-color: var(--clr-primary-2);
+	color: var(--clr-black);
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	border-radius: var(--border-radius);
+	transition: var(--transition);
+}
+
+.large {
+	height: 8rem;
+}
+
+.ctaButton:hover {
+	letter-spacing: calc(var(--letter-spacing) + 0.1rem);
+}
