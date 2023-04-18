@@ -1,0 +1,31 @@
+name: Deploy Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
+      - run: npm ci
+      - run: npm run validate
+      - run: npm run build
+
+      - name: Deploy to frontend-architecture-basic-example.surge.sh
+        uses: dswistowski/surge-sh-action@v1
+        with:
+          domain: "frontend-architecture-basic-example.surge.sh"
+          project: "./build"
+          login: ${{ secrets.SURGE_LOGIN }}
+          token: ${{ secrets.SURGE_TOKEN }}
