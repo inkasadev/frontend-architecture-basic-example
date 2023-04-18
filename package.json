@@ -18,7 +18,7 @@
 		"check-format": "npm run prettier -- --list-different",
 		"lint": "eslint \"**/*.{js,jsx}\"",
 		"validate": "npm run format && npm run lint && npm run test",
-		"deploy-storybook": "storybook-to-ghpages --source-branch \"main\""
+		"deploy-storybook": "storybook-to-ghpages"
 	},
 	"eslintConfig": {
 		"extends": [
