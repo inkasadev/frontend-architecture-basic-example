@@ -83,7 +83,7 @@ Use the following command to run it:
 $ npm run test:coverage
 ```
 
-- After the test finishes a folder called COVERAGE will be generated in project root.
+- After the test finishes a folder called COVERAGE will be generated in the project root.
 - Open coverage/lcov-report/index.html file to check coverage visually.
 - You can also see the coverage report online [clicking here](https://app.codecov.io/gh/inkasadev/frontend-architecture-basic-example).
 
