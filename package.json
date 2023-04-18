@@ -13,10 +13,10 @@
 		"test:coverage": "cross-env CI=true react-scripts test --coverage",
 		"sb:dev": "start-storybook -p 6006 -s public",
 		"sb:build": "build-storybook -s public",
-		"prettier": "prettier --ignore-path .gitignore \"**/*.+(ts|json)\"",
+		"prettier": "prettier --ignore-path .gitignore \"**/*.+(js|jsx)\"",
 		"format": "npm run prettier -- --write",
 		"check-format": "npm run prettier -- --list-different",
-		"lint": "eslint src/**",
+		"lint": "eslint src/** --ext js --ext jsx",
 		"validate": "npm run format && npm run lint && npm run test",
 		"deploy-storybook": "storybook-to-ghpages"
 	},
