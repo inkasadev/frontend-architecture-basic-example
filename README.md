@@ -1,6 +1,11 @@
 # Frontend Architecture Basic Example <!-- omit in toc -->
 
-This project was created to be an example of what I consider a good frontend architecture for basic projects..
+This project was created to be an example of what I consider a good frontend architecture for basic projects.
+
+![example workflow](https://github.com/inkasadev/frontend-architecture-basic-example/actions/workflows/deploy-page.yml/badge.svg)
+![example workflow](https://github.com/inkasadev/frontend-architecture-basic-example/actions/workflows/deploy-docs.yml/badge.svg)
+[![codecov](https://codecov.io/gh/inkasadev/frontend-architecture-basic-example/branch/main/graph/badge.svg?token=0F2MLIZXQ0)](https://codecov.io/gh/inkasadev/frontend-architecture-basic-example)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center" >
     <img src="media/cover.png">
@@ -35,6 +40,10 @@ This project uses a folder structure based on the [Atomic Design](https://atomic
 
 ```
 Project
+├── .github
+│   ├── workflows: Github Actions workflows
+│   .husky: Husky Hooks config
+│   .storybook: Storybook config
 ├── src
 │   ├── api: Project mock api
 │   ├── assets: Project assets
@@ -64,7 +73,7 @@ $ npm run setup
 ```
 
 - By default the application will be started at port 3000.
-- You can also see the application in production [clicking here]().
+- You can also see the application in production [clicking here](https://frontend-architecture-basic-example.surge.sh/).
 
 ## Testing
 
@@ -76,7 +85,7 @@ $ npm run test:coverage
 
 - After the test finishes a folder called COVERAGE will be generated in project root.
 - Open coverage/lcov-report/index.html file to check coverage visually.
-- You can also see the coverage report online [clicking here]().
+- You can also see the coverage report online [clicking here](https://app.codecov.io/gh/inkasadev/frontend-architecture-basic-example).
 
 ## Storybook Documentation
 
@@ -87,7 +96,7 @@ $ npm run sb:dev
 ```
 
 - By default the storybook will be started at port 6006.
-- You can also see the storybook documentation online [clicking here]().
+- You can also see the storybook documentation online [clicking here](https://inkasadev.github.io/frontend-architecture-basic-example).
 
 ## Possible Improvements
 
