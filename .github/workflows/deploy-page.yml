@@ -23,5 +23,5 @@ jobs:
       - run: npm run build
       - run: npm install -g surge
       - run:
-          surge ./build ${{ secrets.SURGE_DOMAIN }} --token ${{
+          surge --project ./build ${{ secrets.SURGE_DOMAIN }} --token ${{
           secrets.SURGE_TOKEN }}

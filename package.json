@@ -97,6 +97,7 @@
 		"jest-environment-jsdom": "^29.4.3",
 		"prop-types": "^15.8.1",
 		"storybook-addon-react-router-v6": "^0.2.1",
+		"surge": "^0.23.1",
 		"webpack": "^5.75.0"
 	}
 }
